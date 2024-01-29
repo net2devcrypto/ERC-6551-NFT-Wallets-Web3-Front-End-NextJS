@@ -10,4 +10,4 @@ A NextJS Web3 app that allows users to create and interact ERC-6551 tokenbound a
 ** USE IT AT YOUR OWN RISK** **I'M NOT RESPONSIBLE FOR ANY USE, ISSUES ETC.. **
 
 ENTIRE PLAYLIST:
-<a href="https://www.youtube.com/watch?v=L-sDrg_SAzw&list=PLLkrq2VBYc1ZosEDxNkUdrAvW_iVlPf0K" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/ytlogo2.png" width="90" height="20"></a>
+<a href="https://www.youtube.com/watch?v=0nA8E6ZEJ5M&list=PLLkrq2VBYc1aWH2WwRaEZVa_YorLR6Ht2" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/ytlogo2.png" width="90" height="20"></a>
