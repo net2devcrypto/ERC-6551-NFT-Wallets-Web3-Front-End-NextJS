@@ -1,7 +1,7 @@
 # ERC-6551-NFT-Wallet-Web3-Front-End-NextJS
 A NextJS Web3 app that allows users to create and interact ERC-6551 tokenbound accounts (NFT Wallet). Send and Store ERC-20 tokens in NFT. Withdraw tokens and more!
 
-<img src="https://raw.githubusercontent.com/net2devcrypto/misc/main/decentralized.jpg" width="550" height="300">
+<img src="https://raw.githubusercontent.com/net2devcrypto/misc/main/erc-6551-frontend.png" width="550" height="300">
 
 ** THE FILES ATTACHED TO THIS REPO ARE FOR EDUCATIONAL PURPOSES ONLY **
 
