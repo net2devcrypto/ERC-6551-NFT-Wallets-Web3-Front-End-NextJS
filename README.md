@@ -11,3 +11,19 @@ A NextJS Web3 app that allows users to create and interact ERC-6551 tokenbound a
 
 ENTIRE PLAYLIST:
 <a href="https://www.youtube.com/watch?v=0nA8E6ZEJ5M&list=PLLkrq2VBYc1aWH2WwRaEZVa_YorLR6Ht2" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/ytlogo2.png" width="90" height="20"></a>
+
+<h3>Part 2 Repo</h3>
+
+Click for video:
+
+<a href="https://youtu.be/z-Uu-MBrigU" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/ytlogo2.png" width="150" height="40"></a>
+
+Part2 "Contracts" Folder Contents:
+
+```shell
+N2D-ERC6551-Account.sol
+N2D-ERC6551-Registry.sol
+N2D-Sample-Fake-USDT.sol
+N2D-Sample-NFT-Collection.sol
+```
+Follow the tutorial video for guidance in using the contract files. 
