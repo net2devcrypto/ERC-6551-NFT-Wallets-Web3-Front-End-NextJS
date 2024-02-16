@@ -72,7 +72,7 @@ const usdtContractAddr = 'FAKE_USDT_TOKEN_CONTRACT_ADDRESS';
 
 <h3>Step 4</h3>
 
-Read the readme-first located inside the "ERC-6551-Frontend" folder then run the application and test! Follow the tutorial vid for more info.
+Read the "readme-first" located inside the "ERC-6551-Frontend" folder then run the application and test! Follow the tutorial vid for more info.
 
 ```shell
 cd ERC-6551-Frontend
