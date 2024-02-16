@@ -1,0 +1,29 @@
+{
+  "name": "net2dev6551",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.1.3",
+    "ethers": "^5.7.2",
+    "next": "13.3.4",
+    "react": "18.2.0",
+    "react-countdown": "^2.3.2",
+    "react-countup": "^6.2.0",
+    "react-dom": "18.2.0",
+    "react-modal-video": "^1.2.8",
+    "react-visibility-sensor": "^5.1.1",
+    "sass": "^1.62.1",
+    "sf-font": "^1.0.0",
+    "smooth-scrollbar": "^8.7.4",
+    "smooth-scrollbar-react": "^2.3.0",
+    "swiper": "^8.1.5",
+    "viem": "^1.2.15"
+  }
+}

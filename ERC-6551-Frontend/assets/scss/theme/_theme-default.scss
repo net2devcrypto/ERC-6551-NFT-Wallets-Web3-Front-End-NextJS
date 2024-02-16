@@ -1,0 +1,209 @@
+/* Author CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+	font-family: $body-font;
+    line-height: 1.65;
+}
+body.dark-bg{
+    background: $bg-color;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $heading-font;
+    color: $heading-color;
+}
+h1,
+h2,
+h3{
+    font-weight: 700;
+}
+h4,
+h5,
+h6{
+    font-weight: 600;
+}
+p {
+	color: $paragraph-color;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus,
+.slick-slide {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+}
+
+
+
+/********** Primary Btn *********/
+.primary-btn {
+    a {
+        padding: 13px 30px;
+        display: inline-block;
+        background: $primary-gradient;
+        font-size: 14px;
+        color: #fff;
+        font-family: $heading-font;
+        font-weight: 600;
+        border-radius: 5px;
+        position: relative;
+        overflow: hidden;
+        vertical-align: middle;
+        z-index: 1;
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            background: $hover-gradient;
+            z-index: -1;
+            transition: $transition;
+            opacity: 0;
+        }
+        &:hover {
+            &::before {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+/************* Primary Title ****************/ 
+.primary-title {
+    max-width: 520px; 
+    margin: 0 auto;
+    text-align: center;
+    .title-heading {
+        h2 {
+            font-weight: 600;
+        }
+    }
+}
+
+.scroll-top-btn {
+    position: fixed; 
+    right: 30px; 
+    bottom: 30px;
+    z-index: 100;
+    background-color: $primary-color; 
+    color: #fff;
+    width: 40px; 
+    height: 40px; 
+    font-size: 14px;
+    border-radius: 50%;
+    display: none;
+}
+
+
+/************ Preloader *************/ 
+.preload-wrapper {
+    background-color: #222;
+    position: fixed; 
+    perspective: 600px;
+    z-index: 200;
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease-in-out;
+}
+.preload-flex {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.point {width: 100px; height: 25px}
+.point span{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background: $primary-gradient;
+    animation: Scaling 1.5s 1s infinite
+}
+.point span:first-child  {animation-delay: 1s}
+.point span:nth-child(2) {animation-delay: 0.5s}
+.point span:nth-child(3) {animation-delay: 0.5}
+.point span:last-child   {animation-delay: 0s}
+
+
+
+
+/************** Theme Animations *************/ 
+@keyframes Scaling{
+    0%   {
+        width: 15px;
+    }
+    50%  {
+        width: 35px;
+    }
+    100% {
+        width: 15px;
+    }
+}
+
+@keyframes ripple-animation {
+    0% {
+      box-shadow: 0 0 0 0 $primary-color; 
+    }
+    50% {
+      box-shadow: 0 0 0 20px rgba(1, 93, 199, 0); 
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(1, 93, 199, 0); 
+    } 
+}
+
+.bg-dark-light{
+    background-color: $content-bg;
+}
+.rounded-custom{
+    border-radius: .5rem;
+}
+.box-shadow-secondary{
+    box-shadow: 0 0 1.5rem 0 #0029FF;
+}
+.primary-bg{
+    background-color: $primary-color;
+}
+.secondary-bg{
+    background-color: $secondary-color;
+}
+.box-shadow-light{
+    box-shadow: $box-shadow-light;
+}
+.box-shadow-color{
+    box-shadow: $box-shadow-color;
+}
