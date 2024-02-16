@@ -47,7 +47,7 @@ npm i --legacy-peer-deps
 
 <h3>Step 2 (OPTIONAL) </h3>
 
-If you don't have existing contracts deployed, you may deploy the contract files located inside the repo folder "Contracts". Make sure to update your your NFT Collection metadata BaseURI to point to the IPFS CID. Follow the tutorial video for more info. If you deployed a new NFT Collection contract to test, Make sure you mint some NFT's to validate the ERC-6551 Wallet creation. (OPTIONAL)
+If you don't have existing contracts deployed, you may deploy the contract files located inside the repo folder "Contracts". Make sure to update your NFT Collection metadata BaseURI to point to the IPFS CID. Follow the tutorial video for more info. If you deployed a new NFT Collection contract to test, Make sure you mint some NFT's to validate the ERC-6551 Wallet creation. (OPTIONAL)
 
 ```shell
 N2D-Sample-NFT-Collection.sol
