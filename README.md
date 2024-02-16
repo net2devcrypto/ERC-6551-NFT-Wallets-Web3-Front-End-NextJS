@@ -32,7 +32,7 @@ Follow the tutorial video for guidance in using the contract files.
 
 Click for video:
 
-<a href="https://youtu.be/z-Uu-MBrigU" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/ytlogo2.png" width="150" height="40"></a>
+<a href="https://youtu.be/NQL-zBslGgM" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/ytlogo2.png" width="150" height="40"></a>
 
 # How to install and test the front-end app.
 
